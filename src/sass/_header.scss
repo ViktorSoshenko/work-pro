@@ -72,10 +72,20 @@ body {
     display: inline-flex;
   }
 }
+.icon-cros {
+  margin-top: 100px;
+  fill: #e8185a;
+}
 .header-list {
   text-align: center;
   margin-left: 0;
   padding-inline-start: 0;
+}
+
+.buy-now {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
 
 .item {

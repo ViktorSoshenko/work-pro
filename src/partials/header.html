@@ -1,10 +1,9 @@
 <header class="hedder">
   <div class="container">
+    <a class="header-logo">
+      <img width="40" height="37" src="./images/Logo1.png" />
+    </a>
     <div class="header-tablet">
-      <a class="header-logo">
-        <img width="40" height="37" src="./images/Logo1.png" />
-      </a>
-
       <button
         type="button"
         class="menu-button"
@@ -17,13 +16,14 @@
           <use class="icon-menu" href="./images/icons.svg#icon-menu"></use>
         </svg>
       </button>
+
+      <button type="button" class="header-button">
+        Buy now
+        <svg width="12" height="12">
+          <use href="./images/icons.svg#more"></use>
+        </svg>
+      </button>
     </div>
-    <button type="button" class="header-button">
-      Buy now
-      <svg width="12" height="12">
-        <use href="./images/icons.svg#more"></use>
-      </svg>
-    </button>
 
     <div class="menu-container" id="menu-container" data-menu>
       <a class="header-logo menu-logo">
@@ -38,7 +38,7 @@
           <li class="item"><a href="" class="item-link">Contact</a></li>
         </ul>
       </nav>
-      <button type="button" class="button" data-modal-open>
+      <button type="button" class="button buy-now" data-modal-open>
         Buy now
         <svg width="12" height="12">
           <use href="./images/icons.svg#more"></use>
